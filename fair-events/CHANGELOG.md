@@ -1,5 +1,27 @@
 # fair-events
 
+## 1.17.0
+
+### Minor Changes
+
+-   5336197: Add an authorized Copy action to eligible rows in the All Events list.
+-   448d0e2: Add a Copy event action to the Manage Event administration tab.
+-   b3a74fa: Add Google Maps verification links to venue management.
+-   8c56f63: Recognize participant-token links throughout the unified Event Signup flow, including personalized hydration, authoritative pricing and eligibility, and participant linkage.
+-   ac04ebc: Copy complete ticket configuration and shifted availability dates when duplicating an event.
+
+### Patch Changes
+
+-   71b5b84: Show ticket sale-period end dates as inclusive calendar days while preserving exclusive midnight boundaries in storage.
+-   a96d4f1: Keep payment recovery actions available while event signup confirmation is delayed or cannot be checked.
+-   3d41a7c: Show localized, human-readable linked-post statuses on the All Events page.
+-   66ae888: Display cleared over-capacity signup flags as confirmed without a warning.
+-   adf8ba3: Prevent active payment reservations from being flagged over capacity, serialize genuinely late confirmations, and clear unreliable historical warnings during upgrade.
+-   f8a2b3a: Let venue administrators paste a latitude and longitude pair into the Latitude field and keep the Google Maps preview beside both coordinate fields.
+-   2971a6b: Preserve site-local event times when formatting signup emails.
+-   Updated dependencies [a96d4f1]
+    -   fair-events-shared@0.6.1
+
 ## 1.16.0
 
 ### Minor Changes
